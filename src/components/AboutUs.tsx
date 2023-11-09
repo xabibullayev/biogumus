@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MainButton from "./layouts/MainButton";
 
 export default function AboutUs() {
   return (
@@ -13,12 +14,7 @@ export default function AboutUs() {
             является сушенный помидор, из лучших сортов.
           </h1>
 
-          <Link
-            href=""
-            className="border border-green py-4 px-12 text-lg text-green"
-          >
-            Подробнее
-          </Link>
+          <MainButton title="Подробнее" />
         </div>
         <div className="w-[60%]">
           <img className="w-full" src="/images/aboutUs/aboutUs-1.jpg" alt="" />
@@ -36,12 +32,7 @@ export default function AboutUs() {
             является сушенный помидор, из лучших сортов.
           </h1>
 
-          <Link
-            href=""
-            className="border border-green py-4 px-12 text-lg text-green"
-          >
-            Подробнее
-          </Link>
+          <MainButton title="Сертификаты" />
         </div>
       </div>
     </div>

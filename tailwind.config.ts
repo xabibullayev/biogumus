@@ -15,6 +15,7 @@ const config: Config = {
       colors: {
         green: "#39B508",
         greenlight: "rgba(57, 181, 8, 0.28)",
+        greened: "#C8F3B6",
       },
     },
   },
