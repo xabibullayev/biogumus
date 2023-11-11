@@ -17,8 +17,10 @@ export default function SingleProduct({ title, img, desc }: ProdoctProps) {
         <img src="/images/stars.png" alt="" className="mb-4" />
 
         <div>
-          {desc.map((desc) => (
-            <p className="text-[18px]">{desc}</p>
+          {desc.map((desc, index) => (
+            <p key={index} className="text-[18px]">
+              {desc}
+            </p>
           ))}
         </div>
       </div>

@@ -94,6 +94,7 @@ export default function Products() {
       <div className="my-[120px] px-[120px]">
         {products.map((product) => (
           <SingleProduct
+            key={product.id}
             title={product.title}
             img={product.img}
             desc={product.desc}
