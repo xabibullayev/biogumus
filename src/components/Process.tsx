@@ -1,12 +1,15 @@
 export default function Process() {
   return (
-    <div className="px-28 mt-20">
+    <div className="px-28 mt-60">
       <h1 className="text-center mb-3 text-3xl font-medium">
         Процесс приготовления нашего продукта
       </h1>
-      <p className="text-center mb-20 text-2xl">
-        Вы можете увидеть как мы планируем наш процесс изготовления{" "}
-      </p>
+      <div className="mb-20">
+        <p className="text-center text-2xl">
+          Вы можете увидеть как мы планируем
+        </p>
+        <p className="text-center text-2xl">наш процесс изготовления</p>
+      </div>
 
       <div className="flex items-center gap-7">
         <div className="flex flex-col justify-center items-center gap-12 w-[25%] bg-greenlight h-[250px] p-4 border-radius rounded-lg">

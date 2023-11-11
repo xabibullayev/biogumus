@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="h-[90vh] bg-header-bg bg-cover text-white flex flex-col justify-center items-center relative">
+    <div className="h-[90vh] bg-headerBg bg-cover text-white flex flex-col justify-center items-center relative">
       <h1 className="w-[60%] text-[40px] text-center font-medium mb-3">
         Лучшие сушёные овощи, фрукты и орехи из Узбекистана! Попробуйте!
       </h1>

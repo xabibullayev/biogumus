@@ -1,27 +1,33 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
-    <div className="h-[10vh] flex justify-between items-center px-[8vw]">
-      <img className="w-[6vw]" src="/images/navbar/logo-1.jpg" alt="" />
+    <div className="bg-white h-[10vh] flex justify-between items-center px-[8vw] sticky top-0 shadow-navbar z-10">
+      <Link href="/">
+        <img className="w-[6vw]" src="/images/navbar/logo-1.jpg" alt="" />
+      </Link>
 
       <ul className="flex gap-6 text-lg">
         <li>
-          <a href="">О нас</a>
+          <Link href="/about">О нас</Link>
         </li>
         <li>
-          <a href="">Продукты</a>
+          <Link href="/products">Продукты</Link>
         </li>
         <li>
-          <a href="">Производство</a>
+          <Link href="">Производство</Link>
         </li>
         <li>
-          <a href="">Требования о пищевой безопасности</a>
+          <Link href="/sertificates">Требования о пищевой безопасности</Link>
         </li>
         <li>
-          <a href="">Контакты</a>
+          <Link href="">Контакты</Link>
         </li>
       </ul>
 
-      <img className="w-[3vw]" src="/images/navbar/logo-2.png" alt="" />
+      <Link href="/">
+        <img className="w-[3vw]" src="/images/navbar/logo-2.png" alt="" />
+      </Link>
     </div>
   );
 }

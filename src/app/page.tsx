@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import OurPartner from "@/components/OurPartner";
 import OurProducts from "@/components/OurProducts";
 import Process from "@/components/Process";
+import Read from "@/components/Read";
+import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Process />
       <OurPartner />
       <OurProducts />
+      <WhyUs />
+      <Read />
       <Footer />
     </div>
   );

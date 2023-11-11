@@ -13,8 +13,12 @@ export default function AboutUs() {
             перерабатываем их без химических добавок. Нашим основным продуктом
             является сушенный помидор, из лучших сортов.
           </h1>
-
-          <MainButton title="Подробнее" />
+          <Link
+            href=""
+            className="border border-green py-4 px-12 text-lg text-green"
+          >
+            Подробнее
+          </Link>
         </div>
         <div className="w-[60%]">
           <img className="w-full" src="/images/aboutUs/aboutUs-1.jpg" alt="" />
@@ -32,7 +36,12 @@ export default function AboutUs() {
             является сушенный помидор, из лучших сортов.
           </h1>
 
-          <MainButton title="Сертификаты" />
+          <Link
+            href=""
+            className="border border-green py-4 px-12 text-lg text-green"
+          >
+            Сертификаты
+          </Link>
         </div>
       </div>
     </div>

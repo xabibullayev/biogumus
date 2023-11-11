@@ -1,6 +1,6 @@
 export default function OurPartner() {
   return (
-    <div className="mt-28 px-28">
+    <div className="my-28 px-28">
       <h1 className="text-center text-3xl mb-5 font-medium">Наши партнеры</h1>
       <p className="text-center text-xl mb-16">
         Мы сотрудничаем как с местными, так и с зарубеджными компаниями
