@@ -1,10 +1,9 @@
 import Link from "next/link";
-import MainButton from "./layouts/MainButton";
 
 export default function AboutUs() {
   return (
     <div>
-      <h1 className="mt-8 mb-10 text-center text-3xl font-medium    ">О нас</h1>
+      <h1 className="mt-8 mb-10 text-center text-3xl font-medium">О нас</h1>
 
       <div className="flex gap-5 pl-24 pr-64 mb-14">
         <div className="w-[40%]">
